@@ -1,4 +1,6 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem 'minitest'
+group :test do
+  gem 'minitest'
+end
